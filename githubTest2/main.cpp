@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     printf("Hello world!\n");
     printf("%s\n",argv[0]);
     for (cnt_i = 0; cnt_i<argc; cnt_i++) {
-        printf("%s\n",argc[cnt_i]);
+        printf("%s\n",argv[cnt_i]);
     }
     return 0;
 }
